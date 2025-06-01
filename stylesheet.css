@@ -1056,7 +1056,7 @@ audio {
 	100% {
 		-ms-transform:translate(0px,0px);
 	}
-}o
+}
 @keyframes bannar_come {
 	0%{
 		transform:translate(0px,-1000px);
@@ -1300,39 +1300,38 @@ audio {
         background-color: #466baf;
     }
 
-	@media screen and (max-width: 768px) {
-		.balloons {
-		  width: 60px;
-		  height: 110px;
-		  background-size: 60px 110px;
-		}
-	  
-		.balloons h2 {
-		  font-size: 28px;
-		}
-	  
-		.cake {
-		  transform: scale(0.75);
-		}
-	  
-		.message p {
-		  font-size: 20px;
-		  padding: 0 10px;
-		}
-	  
-		.bannar {
-		  max-width: 90%;
-		  transform: translate(0px, -300px);
-		}
-	  
-		.control-panel {
-		  flex-wrap: wrap;
-		  gap: 5px;
-		}
-	  
-		.btn-primary {
-		  font-size: 14px;
-		  padding: 8px;
-		}
-	  }
-	  
+@media screen and (max-width: 768px) {
+  .balloons {
+    width: 60px;
+    height: 110px;
+    background-size: 60px 110px;
+  }
+
+  .balloons h2 {
+    font-size: 28px;
+  }
+
+  .cake {
+    transform: scale(0.75);
+  }
+
+  .message p {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+
+  .bannar {
+    max-width: 90%;
+    transform: translate(0px, -300px);
+  }
+
+  .control-panel {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
